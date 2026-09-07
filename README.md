@@ -15,3 +15,5 @@ Optionally, some weeks may provide...
 - `Questions.md` files, containing a listing of mainly theoretical questions to validate your knowledge after studying
 
 Each one of these files will be sorted by week, for instance the homework specifications from week 4 will be available at `04/Homework.md` in this repository.
+
+See [LICENSE](LICENSE) for terms on using and sharing course materials.
