@@ -18,8 +18,8 @@ Find examples of the file types from the lecture on your VM and verify them with
 Read the `EXPRESSION` section of `man find`, then try the following searches. Think of a command first before looking at its example.
 
 ```bash
-# Find regular files in /etc writable by everyone:
-find /etc -type f -perm -o=w
+# Find regular files in /etc readable by everyone:
+find /etc -type f -perm -o=r
 
 # Find directories in /tmp with the sticky bit:
 find /tmp -type d -perm -1000
