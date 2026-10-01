@@ -36,6 +36,8 @@ The script must:
 
 Make the script executable and commit and push it to GitLab.
 
+P.S. both stderr and stdout work fine for printing errors, from the grader's perspective; but in real life, please use either proper logging interfaces (e.g. `logger`) or the right stream (i.e. `stderr`).
+
 ## Anacron
 
 Complete the work on your course VM. Replace `UNI_ID` with your university ID.
