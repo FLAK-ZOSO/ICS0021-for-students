@@ -18,6 +18,7 @@ journalctl -p err
 journalctl -t test
 journalctl -u chronyd
 journalctl _COMM=logger
+journalctl --facility=cron # Used to be SYSLOG_FACILITY=9
 ```
 
 Explain [facilities](https://wiki.archlinux.org/title/Systemd/Journal#Facility), where `facility.severity` is the syntax in logger, and mention how [applications use the local ones](https://serverfault.com/questions/115923/which-program-defaults-uses-syslog-local0-7-facilities).
