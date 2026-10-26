@@ -1,7 +1,7 @@
 # Linux Administration - Week 4 - Questions
 
 - What information does the first character of `ls -l` output provide? Name at least four file types.
-- How do `r`, `w`, and `x` affect a directory differently from a directory?
+- How do `r`, `w`, and `x` affect a directory differently from a regular file?
 - How are owner, group, and other permissions selected for a process accessing a file?
 - Translate `rwxr-xr--` to octal.
 - Translate `755` to "rwx notation".
