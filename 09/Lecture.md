@@ -50,7 +50,7 @@ There are also some extra possibilities that we will only namedrop...
 
 ## Archive and transfer files
 
-Consider compressing before large things across different filesystems and especially machines, or you may be just wasting time and bandwidth! Similarly goes with storage.
+> Consider compressing before transfering large amounts of data across different filesystems and especially machines, or you may be just wasting time and bandwidth! Similarly goes with storage.
 
 ### Compressing files
 
@@ -76,7 +76,7 @@ Always keep in mind the risk of handling [zip bombs](https://en.wikipedia.org/wi
 
 ### Detour: inodes, copying, moving, archiving, hard links, symbolic links
 
-Just listen to rainer on this one.
+Just listen to Rainer on this one.
 
 ### `rsync`
 
